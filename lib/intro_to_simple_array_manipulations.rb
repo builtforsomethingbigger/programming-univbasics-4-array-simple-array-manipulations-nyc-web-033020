@@ -13,7 +13,5 @@ end
 
 def pop_with_args (array)
   element1 = array.pop[0,1]
-  element2 = array.pop
   p element1
-  p element2
 end
