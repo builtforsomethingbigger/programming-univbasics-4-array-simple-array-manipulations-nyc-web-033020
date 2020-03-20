@@ -12,6 +12,7 @@ def using_pop (array)
 end
 
 def pop_with_args (array)
-  elements = array.pop[0,1]
-  p elements.sort
+  element1 = array.pop
+  element2 = array.pop
+  p element2, element1
 end
