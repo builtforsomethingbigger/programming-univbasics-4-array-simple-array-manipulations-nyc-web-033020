@@ -15,6 +15,5 @@ def pop_with_args (array)
   array = ["Chihuahua", "Shiba Inu"]
   element1 = array.pop
   element2 = array.pop
-  p element1
-  p element2
+  p element1, element2
 end
