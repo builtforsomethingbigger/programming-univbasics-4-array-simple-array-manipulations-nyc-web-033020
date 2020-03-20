@@ -33,5 +33,5 @@ end
 
 def using_insert (array, element)
   new_element = element.to_i
-  array.insert[0](new_element)
+  array[0].insert(new_element)
 end
