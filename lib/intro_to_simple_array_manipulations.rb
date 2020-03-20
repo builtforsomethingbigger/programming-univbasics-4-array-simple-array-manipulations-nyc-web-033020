@@ -16,3 +16,7 @@ def pop_with_args (array)
   element2 = array.pop
   p element2, element1
 end
+
+def using_shift (array)]
+  array.shift
+end
