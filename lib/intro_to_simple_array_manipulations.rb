@@ -1,5 +1,5 @@
 myArray = ["Dad", "Mom", "Brother", "Sister"]
 
-def push_array (myArray)
-  myArray.push "Baby"
+def using_push (array, "Red")
+  array.push "Red"
 end
