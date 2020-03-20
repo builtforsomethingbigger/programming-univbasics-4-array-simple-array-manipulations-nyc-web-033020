@@ -12,8 +12,8 @@ def using_pop (array)
 end
 
 def pop_with_args (array)
-  element1 = array.pop "Chihuahua"
-  element2 = array.pop "Shiba Inu" 
+  element1 = array.pop("Chihuahua")
+  element2 = array.pop("Shiba Inu") 
   p element1
   p element2
 end
