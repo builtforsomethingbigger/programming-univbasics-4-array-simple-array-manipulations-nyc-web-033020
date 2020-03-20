@@ -20,3 +20,9 @@ end
 def using_shift (array)
   array.shift
 end
+
+def shift_with_args (array)
+  element1 = array.shift
+  element2 = array.shift
+  p element2, element1
+end
