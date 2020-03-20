@@ -11,8 +11,9 @@ def using_pop (array)
   array.pop
 end
 
-def pop_with_args (array, elements)
-  elements = array.pop[0,-1]
-  p pop_with_args
-  p elements
+def pop_with_args (array, element1, element2)
+  element1 = array.pop[0]
+  element2 = array.pop[-1]
+  p element1
+  p element2
 end
