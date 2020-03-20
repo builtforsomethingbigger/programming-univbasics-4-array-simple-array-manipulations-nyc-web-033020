@@ -13,4 +13,5 @@ end
 
 def pop_with_args (array, elements)
   elements = array.pop[0,-1]
+  return elements
 end
